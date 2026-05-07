@@ -1,0 +1,12 @@
+# Ignoră fișierele de sistem Python
+__pycache__/
+*.py[cod]
+
+# Ignoră pozele salvate local (dacă ai folosit Scriptul 1 anterior)
+known_faces/
+*.jpeg
+*.jpg
+*.png
+
+# Ignoră fișierele de configurare care ar putea conține parole (dacă vei folosi .env)
+.env
