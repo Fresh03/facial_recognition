@@ -20,11 +20,11 @@ def roteste(viteza, durata):
     time.sleep(0.5)
 
 print("Rotire înainte...")
-roteste(0.6, 0.17)   # ajustează durata până face exact 90°
+roteste(0.4, 0.2)   # ajustează durata până face exact 90°
 time.sleep(1)
 
 print("Rotire înapoi...")
-roteste(-0.6, 0.13)  # aceeași durată = revine la poziția inițială
+roteste(-0.4, 0.15)  # aceeași durată = revine la poziția inițială
 time.sleep(1)
 
 print("Gata!")
